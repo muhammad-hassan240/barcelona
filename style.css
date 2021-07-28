@@ -1,0 +1,488 @@
+
+body{
+    font-family: 'Patua One', cursive;
+}
+
+/* Navbar Section */
+
+.fc-logo{
+    font-size: 35px;
+    font-family: 'Patua One', cursive;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+#navigation-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#navbarNav a{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    transition: all 0.8s;    
+    border-radius: 6px;
+    font-family: 'Patua One', cursive;
+    display: inline !important;
+}
+
+#navbarNav li{
+    padding: 0 10px;
+}
+
+#navbarNav li a:hover{
+    color: #5f1782;
+    background-color:  white;
+}
+
+.navbar{
+    background: linear-gradient(to right, #3b118a,#230257);
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+
+.dropdown-item{
+    color: #5f1782 !important;
+}
+.dropdown-item:hover{
+    background-color: #5f1782 !important;
+    color: white !important;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+
+/* Banner Section */
+
+#banner{
+    background: linear-gradient(to right, #3b118a,#230257);
+}
+
+.img-fluid{
+    height: 550px;
+}
+
+.carousel{
+    padding: 2px;
+}
+
+.carousel-caption{
+    background-color: rgba(9, 7, 109, 0.3);
+    font-family: 'Patua One', cursive;
+}
+
+/* News Section */
+
+.news-section{
+    background: linear-gradient(to bottom, #3b118a,#3b1161);
+}
+
+.barca-news{
+    font-size: 35px;
+    font-family: 'Patua One', cursive;
+}
+
+.barca-news:after{
+    background: rgb(250, 200, 2);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+
+.news-section img{
+    transform: scale(1);
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.news-section img:hover{
+    transform: scale(1.04);
+    
+}
+
+.card{
+    border: 0px solid #3b118a;
+}
+
+.post-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+/* Players-Section */
+
+#player-section{
+    background: linear-gradient(to bottom,#3b1162, #ffee00);
+}
+
+.players{
+    font-size: 35px;
+    font-family: 'Patua One', cursive;
+}
+
+
+.players:after{
+    background: rgb(250, 200, 2);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+
+#player-section img{
+    height: 480px;
+    
+}
+
+.card-img-overlay{
+    transform: scale(1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+.card-title{
+    font-family: 'Patua One', cursive;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 45px;
+    margin-top: 90%;
+    transition: all 1s;
+    text-align: left;
+}
+
+.p-card img{
+    transition: all 0.5s;
+}
+
+.p-card:hover img{
+    transform: scale(1.04);
+}
+
+.p-card:hover .card-title{
+    opacity: 0;
+}
+
+
+.messi-p{
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: all 2s;
+}
+
+.messi-p:before,.messi-p:after{
+    background: rgba(250, 200, 2, 0.9);
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 2px auto;
+    opacity: 0;
+}
+
+.p-card:hover .messi-p{
+    opacity: 1;
+}
+
+.card-title:hover, .messi-p:before, .messi-p:after{
+    opacity: 1;
+}
+
+.griz-p{
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: all 2s;
+}
+
+.griz-p:before, .griz-p:after{
+    background: rgba(250, 200, 2, 0.9);
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 2px auto;
+    opacity: 0;
+}
+
+.p-card:hover .griz-p{
+    opacity: 1;
+}
+
+.card-title:hover, .griz-p:before, .griz-p:after{
+    opacity: 1;
+}
+
+.ter-p{
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transition: all 2s;
+}
+
+.ter-p:before,.ter-p:after{
+    background: rgba(250, 200, 2, 0.9);
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 2px auto;
+    opacity: 0;
+}
+
+.p-card:hover .ter-p{
+    opacity: 1;
+}
+
+.card-title:hover, .ter-p:before, .ter-p:after{
+    opacity: 1;
+}
+
+/* Gallery Section */
+
+.gallery-section{
+    background: linear-gradient(to bottom, #ffee00,#3b1162);
+
+}
+
+.gallery-head:after{
+    background: #3b1162;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+.photos-row img{
+    height: 200px;
+    border-radius: 6px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.photos-row img:hover{
+    transform: translateX(10px);
+}
+
+
+
+/* Partner Section */
+
+.partner-section{
+    background: linear-gradient(to bottom,#3b1162, #d308d3);
+}
+
+.partner-row img{
+    height: 130px;
+}
+
+.partner-head:after{
+    background: #ffee00;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+.sponsor-main{
+    border-left: 5px solid #ffee00;
+    border-radius: 8px;
+}
+
+.btn{
+    transition: all 0.4s;
+}
+
+.btn:hover{
+    background: #230257;
+    border: 1px solid #230257 !important;
+    color: white;
+}
+
+.follow-head:before{
+    content: "";
+    border-left: 5px solid #ffee00;
+    border-top-left-radius:8px ;
+    border-bottom-left-radius:8px ;
+    padding-right: 6px;
+}
+
+.social-links i{
+    font-size: 30px;
+}
+
+.social-links {
+    margin-left: 20%;
+}
+
+.social-links a{
+    font-size: 24px;
+    font-family: 'Patua One', cursive;
+    padding-left: 3px;
+}
+
+.social-links a:hover{
+    text-decoration: none;
+}
+
+.football i {
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.football i:hover{
+    transform: translatey(-20px);
+}
+
+/* Footer Section */
+
+.footer-section{
+    background: linear-gradient(to bottom, #d308d3, #230257);
+}
+
+.footer-section a{
+    color: white;
+    font-size: 12px;
+    /* padding-left:2px ; */
+    font-family: sans-serif;
+}
+
+.footer-section li{
+    padding-top: 0;
+}
+
+.footer-section h4{
+    /* padding-left:12px ; */
+    text-align: right;
+}
+
+.last-span {
+    font-size: 25px;
+}
+
+.copy{
+    font-size: 18px;
+}
+
+            /* Media Query Started */
+
+@media screen and (max-width:1200px) {
+    .card-title{
+        font-family: 'Patua One', cursive;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 40px;
+        margin-top: 100%;
+        transition: all 1s;
+        text-align: left;
+    }
+
+    .messi-p{
+        font-size: 30px;
+        /* margin-top: 15%; */
+    }
+    
+    .messi-p:before,.messi-p:after{
+        opacity: 0;
+    }
+
+    .card-title:hover, .messi-p:before, .messi-p:after{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .social-links i{
+        font-size: 50px;
+    }
+
+    .social-links a{
+        font-size: 34px;
+    }
+
+    .card-title{
+        font-size: 30px;
+        margin-top: 60%;
+    }
+
+    .messi-p{
+        opacity: 1;
+    }
+
+    .messi-p:before,.messi-p:after{
+        opacity: 0;
+    }
+
+    .card-title:hover, .messi-p:before, .messi-p:after{
+        opacity: 1;
+    }
+    .griz-p{
+        opacity: 1;
+    }
+
+    .griz-p:before,.griz-p:after{
+        opacity: 0;
+    }
+
+    .card-title:hover, .griz-p:before, .griz-p:after{
+        opacity: 1;
+    }
+    .ter-p{
+        opacity: 1;
+    }
+
+    .ter-p:before,.ter-p:after{
+        opacity: 0;
+    }
+
+    .card-title:hover, .ter-p:before, .ter-p:after{
+        opacity: 1;
+    }
+    
+    .p-card img{
+        transition: all 0.5s;
+    }
+    
+    .p-card:hover img{
+        transform: none;
+    }
+    
+    .p-card:hover .card-title{
+        opacity: 1;
+    }
+
+    .photos-row img:hover{
+        transform: none;
+    }
+
+    .news-section img:hover{
+        transform: none;   
+    }
+    
+}
+
+
